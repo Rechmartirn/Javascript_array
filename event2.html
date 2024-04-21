@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://hips.hearstapps.com/hmg-prod/images/2022-bmw-i4-edrive40-104-1659059092.jpg?crop=0.581xw:0.655xh;0.218xw,0.277xh&resize=768:*" alt="">
+    <!-- <img src="" alt=""> -->
+    <button id="Change">Change Image</button>
+    <button id="unchange">Unchange Image</button>
+</body>
+<script>
+    document.getElementById('Change').addEventListener('click',function(){
+        document.querySelector('img').setAttribute('src','https://ev-database.org/img/auto/BMW_iX1_2022/BMW_iX1_2022-01.jpg');
+    })
+
+    document.getElementById('unchange').addEventListener('click',function(){
+        document.querySelector('img').setAttribute('src','https://hips.hearstapps.com/hmg-prod/images/2022-bmw-i4-edrive40-104-1659059092.jpg?crop=0.581xw:0.655xh;0.218xw,0.277xh&resize=768:*')
+    })
+    
+</script>
+</html>

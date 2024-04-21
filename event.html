@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+    <button id="btn-click">Click</button>
+    <button id="btn-click-unclick">Click</button>
+</body>
+
+<script>
+    let box = document.querySelector('.box');
+    document.getElementById( 'btn-click' ).addEventListener('click',function(){
+
+    if(box.innerHTML != ""){
+        box.innerHTML= "";
+    }
+    else{
+        box.innerHTML= "<h1>Hello World</h1>";
+
+    }
+})
+        function display(){
+           
+        }
+        function displayNone(){
+            box.innerHTML= "";
+        }
+</script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hello World!
+
+        <h3 id="txt2" ></h3>
+    </h2>
+
+    <h2>Hello World!
+
+        <h3  class="txt1" ></h3>
+    </h2>
+
+    <h2>Hello World!
+
+        <h4 ></h4>
+    </h2>
+    <h1 id="tr">Lorem, ipsum dolor.</h1>
+
+
+        <script>
+            document.getElementById('txt2').innerHTML = ("<h1> Hello Header </h1>");
+            document.querySelector('.txt1').innerHTML = "<h1>Hello Main</h1>";
+            document.querySelector('h4').innerHTML = " Hello Footer";
+            document.querySelector('#tr').style.color='red';
+        </script>
+</body>
+</html>
